@@ -1,3 +1,3 @@
-export interface FileReader<T> {
-  readFile(path: string) : T;
+export interface IFileReader<T> {
+  read(path: string) : AsyncIterable<T>;
 }
